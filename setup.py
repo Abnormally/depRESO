@@ -24,7 +24,7 @@ setup(
     classifiers=[
         'Environment :: Web Environment',
         'Intended Audience :: Developers',
-        "License :: OSI Approved :: MIT License",
+        'License :: OSI Approved :: MIT License',
         'Operating System :: OS Independent',
         'Programming Language :: Python',
         'Programming Language :: Python :: 3',
@@ -33,8 +33,8 @@ setup(
     test_suite='nose.collector',
     tests_require=['nose'],
     install_requires=[
-        'bs4==0.0.1',
-        'urllib3==1.25.2',
-        'requests==2.22.0',
+        'beautifulsoup4>=4.11.1,<4.12',
+        'urllib3>=1.26.10,<1.27',
+        'requests>=2.28.1,<2.29',
     ],
 )
