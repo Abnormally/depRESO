@@ -34,7 +34,7 @@ setup(
     tests_require=['nose'],
     install_requires=[
         'beautifulsoup4>=4.11.1,<4.12',
-        'urllib3>=1.26.10,<1.27',
-        'requests>=2.28.1,<2.29',
+        'urllib3>=1.26.10,<2',
+        'requests>=2.28.1,<3',
     ],
 )
